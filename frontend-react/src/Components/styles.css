@@ -1,0 +1,167 @@
+/* styles.css */
+
+.patient-details {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+  }
+  
+  .info-column p {
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  
+  .info-column p:not(:last-child) {
+    margin-bottom: 0.5rem; /* Add spacing for non-last items */
+  }
+  
+  /* Header styling */
+  .patient-details h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Highlight important information */
+  .info-column p:first-of-type {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Visually separate sections */
+  .info-grid > div:not(:first-child) {
+    margin-top: 1rem;
+  }
+  
+/* welcome-component.css */
+.welcome-container {
+    /* Adjust as needed for your dashboard's theme and layout */
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .welcome-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .welcome-message {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+  
+  .dashboard-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-info span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .dashboard-info span:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-info span strong {
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .highlight {
+    color: #337ab7; /* Adjust highlight color as needed */
+    font-weight: 600;
+  }
+  /* Overall structure and spacing */
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background-color: white; /* Adjust background color as needed */
+  }
+  
+  .LoginForm {
+    background-color:rgb(228, 228, 228);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Adjust width as needed */
+  }
+  
+  /* Heading */
+  .LoginForm h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Form elements */
+  .LoginForm div {
+    margin-bottom: 15px;
+  }
+  
+  .LoginForm label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .LoginForm input[type="text"],
+  .LoginForm input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .LoginForm button {
+    background-color: #007bff; /* Adjust button color as needed */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Error message */
+  .LoginForm .errorMessage {
+    color: #dc3545;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  /* Target the labels within the info-column class */
+.info-column p {
+  /* Align text to the left */
+  text-align: left;
+}
+
+/* Target the first element within each p element (the label) */
+.info-column p > *:first-child {
+  /* Make the label bold */
+  font-weight: bold;
+  /* Increase the font size */
+  font-size: 1.2em; /* Adjust as needed */
+  /* Optionally, add margin or padding to separate labels and answers */
+  margin-right: 10px; /* Adjust as needed */
+}
