@@ -41,23 +41,23 @@
 ---
 ## Some of the sample screenshots 
 
-* Email remainder of remaining mails
+## Email remainder of remaining mails
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/ReminderTaskMail.jpeg)<br />
-* Email of Completed Task
+## Email of Completed Task
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/CompletedTaskMail.jpeg)<br />
-* Customized error message for no task found with username
+## Customized error message for no task found with username
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-07%2013-36-35.png)<br />
-* Customized error message for no task found with id 
+## Customized error message for no task found with id 
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-07%2013-36-57.png)<br />
-* Login Page (username: Admin, password: Admin)
+## Login Page (username: Admin, password: Admin)
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-50-53.png)<br />
-* Welcome page
+## Welcome page
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-51-11.png)<br />
-* List all Tasks page
+## List all Tasks page
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-51-18.png)<br />
-* Update task
+## Update task
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-51-26.png)<br />
-* Create task
+## Create task
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-52-30.png)<br />
-* Delete task
+## Delete task
    ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-51-35.png)<br />
