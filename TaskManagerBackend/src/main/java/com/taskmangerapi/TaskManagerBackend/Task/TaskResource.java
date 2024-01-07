@@ -2,6 +2,7 @@ package com.taskmangerapi.TaskManagerBackend.Task;
 
 import com.taskmangerapi.TaskManagerBackend.completedTask.CompletedTask;
 import com.taskmangerapi.TaskManagerBackend.completedTask.CompletedTaskRepository;
+import com.taskmangerapi.TaskManagerBackend.errorHandeling.TaskNotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,7 +20,12 @@ public class TaskResource {
 
     @GetMapping("/users/{username}/task")
     public List<Task> retriveAllTasks(@PathVariable String username){
-        return taskRepository.findByUsername(username);
+        List<Task> taskList= taskRepository.findByUsername(username);
+        if(taskList.isEmpty()){
+            throw new TaskNotFoundException("No Tasks with username:"+username);
+        }
+
+        return taskList;
     }
     @GetMapping("/tasks/count")
     public Long retriveTasksCount(){
@@ -27,6 +33,10 @@ public class TaskResource {
     }
     @GetMapping("/users/{username}/task/{id}")
     public Task retriveAllTasks(@PathVariable String username,@PathVariable Integer id){
+        boolean isPresent = taskRepository.findById(id).isPresent();
+        if(!isPresent){
+            throw new TaskNotFoundException("No task found for username: "+username+" ,with id:"+id);
+        }
         return taskRepository.findById(id).get();
     }
 
@@ -52,8 +62,6 @@ public class TaskResource {
         taskRepository.save(task);
         return task;
     }
-
-
 
     @GetMapping("/basicauth")
     public String sayHello(){
