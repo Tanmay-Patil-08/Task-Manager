@@ -38,5 +38,26 @@
 
    ![Launching React application](https://github.com/Tanmay-Patil-08/Task-Manager/blob/d4d70da709e394803b5d4e3a9fa70da589bfcf4b/Screenshots/Screenshot%20from%202024-01-06%2021-18-53.png)<br />
 
+---
 ## Some of the sample screenshots 
 
+* Email remainder of remaining mails
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/ReminderTaskMail.jpeg)<br />
+* Email of Completed Task
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/CompletedTaskMail.jpeg)<br />
+* Customized error message for no task found with username
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-07%2013-36-35.png)<br />
+* Customized error message for no task found with id 
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-07%2013-36-57.png)<br />
+* Login Page (username: Admin, password: Admin)
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-50-53.png)<br />
+* Welcome page
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-51-11.png)<br />
+* List all Tasks page
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-51-18.png)<br />
+* Update task
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-51-26.png)<br />
+* Create task
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-52-30.png)<br />
+* Delete task
+   ![Image](https://github.com/Tanmay-Patil-08/Task-Manager/blob/2cac1beb4a7207f91cb576230fcd6ab285ba9a87/Screenshots/Screenshot%20from%202024-01-06%2020-51-35.png)<br />
